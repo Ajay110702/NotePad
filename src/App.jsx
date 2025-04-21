@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Plus, StickyNote } from "lucide-react";
-import NotesCard from "./components/NotesCard";
+import NotesCard from './components/NotesCard';
 const App = () => {
   const [notes, setNotes] = useState([
     { id: 1, title: "Subscribe" },
